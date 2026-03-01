@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tripadvisor Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header__left">
+                <h1>Tripadvisor</h1>
+            </div>
+
+            <nav class="header__nav">
+                <a href="#">Discover</a>
+                <a href="#">Review</a>
+                <a href="#">More</a>
+            </nav>
+
+            <div class="header__right">
+                <button class="text-btn">INR</button>
+                <button class="pill-btn">Sign in</button>
+            </div>
+        </header>
+
+        <section class="hero">
+            <h2>Where to?</h2>
+
+            <div class="tabs">
+                <button class="tab tab--active">Search All</button>
+                <button class="tab"><i class="fa-solid fa-bed" style="color: rgb(0, 0, 0);"></i>Hotels</button>
+                <button class="tab"><i class="fa-regular fa-camera" style="color: rgb(0, 0, 0);"></i>Things to Do</button>
+                <button class="tab"><i class="fa-solid fa-utensils" style="color: rgb(0, 0, 0);"></i>Restaurants</button>
+            </div>
+
+            <div class="searchbar">
+                <div class="searchbar__input">
+                    <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 0, 0);"></i>
+                    <input type="text" placeholder="Places to go, things to do, hotels..." />
+                </div>
+                <button class="searchbar__cta">Search</button>
+            </div>
+        </section>
+
+        <section class="feature-grid">
+            <article class="feature-card feature-card--green">
+                <h3>Find things to do for everything you're into</h3>
+                <p>Browse 400,000+ experiences and book with us</p>
+                <div class="mini-stats">
+                    <button>Book now</button>
+            </article>
+        </section>
+
+        <section class="section">
+            <div class="section__head">
+                <h3>Explore the world's most visited cities</h3>
+                <a href="#">View all</a>
+            </div>
+
+            <div class="cards-row">
+                <article class="city-card">
+                    <div class="city-card__img">
+                        <img src="./images/img_1.jpg">
+                    </div>
+                        <div class="city-card__content">
+                            <h4>Outdoors</h4>
+                        </div>
+                </article>
+                <article class="city-card">
+                    <div class="city-card__img">
+                        <img src="./images/img_2.jpg">
+                    </div>
+                        <div class="city-card__content">
+                            <h4>Food</h4>
+                        </div>
+                </article>
+                <article class="city-card">
+                    <div class="city-card__img">
+                        <img src="./images/img_3.jpg">
+                    </div>
+                    <div class="city-card__content">
+                        <h4>Culture</h4>
+                    </div>
+                </article>
+                <article class="city-card">
+                    <div class="city-card__img">
+                        <img src="./images/img_4.jpg">
+                    </div>
+                    <div class="city-card__content">
+                        <h4>Water</h4>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>
